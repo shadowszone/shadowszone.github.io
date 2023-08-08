@@ -94,6 +94,7 @@ div{
     background-image: url(img/blue.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 400px;
     font-size: 15px;
     margin: 40px;
 
@@ -141,6 +142,16 @@ div{
         max-width: 100%;
         white-space: inherit;
     }
+
+    #ja{
+
+        position: relative;
+        top: 20px;
+        left : 20px;
+        margin-left: 30px ;
+    }
+
+    
 }
 
 .head{
