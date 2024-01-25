@@ -2,76 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>King's Profile</title>
-    <link  rel="icon" href="img/download.jpeg">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        table,td,tr{
-    border : 1px solid rgb(252, 250, 250) ; 
-}
-    </style>
+    <title>Dynamic Basic Science School</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;500;600;700;800;900&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-<body style="background-color: black; ">
-    <h1 class="john">King's Profile</h1>
-    <hr>
-    <pre></pre>
-    
+<body>
     <nav>
-        <ul>
-       <li> <a href="index.html">
-             Home
-        </a>
-    </li>
-    <li>
-        <a href="contacts.html">
-            Contacts
-        </a>
-    </li>
-    <li>
-        <a href="projects.html">
-            Projects
-        </a>
-    </li>
-    <li>
-        <a href="blog.html">Blog</a>
-    </li> 
-
-     </ul>
+        <div class="container nav__container">
+            <a href="index.html"><h4>DBSS</h4></a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="ri-menu-line"></i></button>
+            <button id="close-menu-btn"><i class="ri-close-fill"></i></button>
+        </div>
     </nav>
 
-    <br>
-    
-   
-    <hr>
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <h1>Sign up your ward in a school that chases after their future and brings it closer to their reach</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, sunt, minus quis necessitatibus eius et repellendus optio tempora voluptas nisi autem fuga, illo officia cum mollitia ut impedit rem rerum.</p>
+                <a href="#" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header__right">
+                <div class="header__right-image">
+                    <img src="images/header.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
 
-    <br>
-    <li id="j"> <img class="head" src="img/download.jpeg" alt=""> </li>
-    <br>
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+                <h1>Categories</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto veritatis iusto dicta eius! Explicabo at optio qui nemo neque assumenda?</p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+            <div class="categories__right">
+                <article class="category">
+                    <span class="category__icon"><ion-icon name="code-slash-outline"></ion-icon></span>
+                    <h5>Coding</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, assumenda!</p>
+                </article>
+                <!-- ... (other categories) ... -->
+            </div>
+        </div>
+    </section>
 
-    <q>
-        
-        <p class="ball" id="jar">
-     Hi the name's king and am a computer software, hardware, robotics
-      engineering and cybersecurity enthusiast &#128519; feel free to
-    visit my project section and see the things i've worked on 
-    also visit the contact page of this website if you want me to work
-    on something for you or you want to work together on a project 
+    <section class="courses">
+        <h2>Our Special Programs</h2>
+        <div class="container courses__container">
+            <!-- ... (course articles) ... -->
+        </div>
+    </section>
 
-        </p>
+    <!-- ... (Frequently Asked Questions section) ... -->
 
-</q>
-    </form>
-    <p></p>
-      
-   
+    <section class="container testimonials__container mySwipper" >
+        <h2>Parents' Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/avatar1.jpg" alt=""> 
+                </div>
+                    <div class="testimonial__info">
+                        <h5>Mrs Sharon</h5>
+                        <small>Parent</small>
+                    </div>
+                </div>
+                <div class="testimonial__body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio ad rem saepe deserunt ab iure officiis dolor tempora aspernatur tempore, distinctio illo dolore, odit ipsa aperiam molestiae eius! Dicta.</p></div>
+            </article>
 
-    
-       
-    <footer style="color: white;font-size: 20px;text-align: center;background-color: rgba(0,0,0,.5);" >
-        <hr> 
-        copyright  &#169; 2023                              
-    </footer>
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="images/avatar1.jpg" alt=""> 
+                </div>
+                    <div class="testimonial__info">
+                        <h5>Mrs Sharon</h5>
+                        <small>Parent</small>
+                    </div>
+                </div>
+                <div class="testimonial__body"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur odio ad rem saepe deserunt ab iure officiis dolor tempora aspernatur tempore, distinctio illo dolore, odit ipsa aperiam molestiae eius! Dicta.</p></div>
+            </article>
+
+            
+        </div>
+        <!-- Add Swiper Pagination if needed -->
+        <!-- <div class="swiper-pagination"></div> -->
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
 </body>
 </html>
