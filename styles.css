@@ -30,13 +30,15 @@
 
 }
 
-
+.logo2{
+    width: 200px;
+}
 
 body {
     font-family: "montserrat", sans-serif;
     line-height: 1.7;
     color: var(--color-white);
-    background: linear-gradient(60deg, rgb(0, 93, 219) 10.4%, rgb(255, 100, 100) 43.8%, rgb(255, 200, 112) 100.8%);
+    background: linear-gradient(to top, #dfe9f3 0%, white 100%);
 
 
     background-attachment: fixed;
@@ -168,11 +170,41 @@ nav button {
     background: var(--color-bg3);
 }
 
+
+.boxinv{
+    display: block;
+    color: #000;
+    position: relative;
+    bottom: 600px;
+    background: #fff;
+    max-width: 400px;
+    left: 800px;
+    font-family: cursive;
+    
+}
+
+
+
+.invsiz{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.invsiz::after{
+    content: "";
+    border-bottom: 10px solid #6a74e9 ;
+    position: absolute;
+    width: 200px;
+    top: 65px;
+    
+    left: 5px;
+}
+
 /* header */
 
 header{
     position: relative;
-    top: 5rem;
+    top: 1rem;
     overflow: hidden;
     height: 70vh;
     margin-bottom: 5rem;
@@ -355,7 +387,7 @@ header{
 /* testimonials */
 
 
-.testimonials__Container {
+.testimonials__container {
     overflow-x: hidden;
     position: relative;
     margin-bottom: 5rem;
