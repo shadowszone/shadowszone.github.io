@@ -70,7 +70,7 @@ function showSlides() {
 
 
 var typed = new Typed(".typing", {
-    strings:['Software Engineer', 'Pentester', 'Robotics Engineer','Youtuber'],
+    strings:['','Software Engineer', 'Pentester', 'Robotics Engineer','Youtuber'],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
