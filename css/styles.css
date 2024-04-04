@@ -839,6 +839,7 @@
 
 
 @media (max-width:1199px){
+  
   .aside{
     left: -270px;
   }
@@ -866,8 +867,9 @@
   .about .about-content .experience,
 
   .home .home-info{
-    flex: 0 0 100%;
+    flex:100%;
     max-width: 100% ;
+    max-height: 100%;
   }
 
   .home .home-img{
@@ -957,3 +959,39 @@ body, html {
 
 
 
+/* Default styles for the home section */
+.home .home-img img {
+  display: block;
+  margin: auto; /* Center the image horizontally */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .home .home-img img {
+      display: block; /* Change to block level */
+      margin: 0 auto; /* Center the image horizontally with zero top and bottom margin */
+      width: 100%; /* Make the image width 100% to fit smaller screens */
+      max-width: 300px; /* Optional: Set a maximum width for the image */
+  }
+}
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 700px) {
+  /* Adjust the layout for tablets */
+.home .home-img  {
+    display: block; /* Make the image block-level */
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 2000px; /* Ensure the image doesn't overflow its container */
+    height: auto; /* Maintain the aspect ratio */
+    max-height: 400px;
+
+    margin-top: 20px;
+  }
+
+  .home .home-img img{
+    width: 199px;
+    height: 400px;
+  }
+  
+}
