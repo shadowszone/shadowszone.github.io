@@ -1,40 +1,29 @@
 
+                    
+  
 document.addEventListener("DOMContentLoaded", function() {
-    function handleVideoHover(videoElement) {
-        videoElement.addEventListener('mouseover', function() {
-            videoElement.play();
-        });
-
-        videoElement.addEventListener('mouseout', function() {
-            videoElement.pause();
-            videoElement.currentTime = 0; // Resets the video to the beginning
+    function handleVideoIntersection(entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.play();
+            } else {
+                entry.target.pause();
+                entry.target.currentTime = 0; // Resets the video to the beginning
+            }
         });
     }
 
-    var video1 = document.getElementById('hover-video');
-    var video2 = document.getElementById('hover-video2');
-    var video3 = document.getElementById('hover-video3');
-    var video4 = document.getElementById('hover-video4');
-    var video5 = document.getElementById('hover-video5');
-    var video6 = document.getElementById('hover-video6');
-    var video7 = document.getElementById('hover-video7');
-    var video8 = document.getElementById('hover-video8');
-    var video9 = document.getElementById('hover-video9');
-    var video10 = document.getElementById('hover-video10');
+    let options = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.5
+    };
 
-    handleVideoHover(video1);
-    handleVideoHover(video2);
-    handleVideoHover(video3);
-    handleVideoHover(video4);
-    handleVideoHover(video5);
-    handleVideoHover(video6);
-    handleVideoHover(video7);
-    handleVideoHover(video8);
-    handleVideoHover(video9);
-    handleVideoHover(video10);
+    let observer = new IntersectionObserver(handleVideoIntersection, options);
+
+    let videos = document.querySelectorAll('[id^="hover-video"]');
+    videos.forEach(video => observer.observe(video));
 });
-
-
 
 function mode() {
     let body = document.body;
@@ -45,9 +34,9 @@ function mode() {
     } else {
         body.style.backgroundColor = "black";
     }
-
-   
 }
+                    
+  
 
 
 
