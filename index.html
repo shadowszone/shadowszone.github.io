@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<!DOCTYPE html>                                                            
+  
+  
+  
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,188 +13,838 @@
 
     <!-- style switcher -->
     <link rel="stylesheet" href="css/style-switcher.css">
+
     <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
 
-    <style>
+  <style>
         body,
         .container {
             overflow-x: hidden;
         }
-
-        :root {
-            --optional: #00ffff;
-        }
     </style>
+
+    
 </head>
 <body id="jon">
-    <div class="trap">
-        <div class="main-container">
-            <div class="aside">
-                <div class="logo">
-                    <a href="#"><span>A</span>ce</a>
-                </div>
-                <div class="nav-toggler">
-                    <span></span>
-                </div>
-                <ul class="nav" id="aclr">
-                    <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
-                    <li><a href="#About"><i class="fa fa-user"></i>About</a></li>
-                    <li><a href="#Services"><i class="fa fa-list"></i>Services</a></li>
-                    <li><a href="#Portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                    <li><a href="#Contact"><i class="fa fa-comments"></i>Contact</a></li>
-                </ul>
+
+    <div class="trap"><!-- main container start -->
+<div class="main-container">
+    <!-- Aside start -->
+    <div class="aside">
+        <div class="logo">
+            <a href="#"><span>A</span>ce</a>
+        </div>
+
+        <div class="nav-toggler">
+            <span></span>
+        </div>
+
+        <ul class="nav" id="aclr">
+            <li><a href="#" class="active"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="#About"><i class="fa fa-user"></i>About</a></li>
+            <li><a href="#Services"><i class="fa fa-list"></i>Services</a></li>
+            <li><a href="#Portfolio"><i class="fa fa-briefcase"></i>Portfolio</a></li>
+            <li><a href="#Contact"><i class="fa fa-comments"></i>Contact</a></li>
+        </ul>
+    </div>
+    <!-- Aside end -->
+    <!-- main content start -->
+<div class="main-content">
+    <!-- Home section start -->
+    <section class="home section  ">
+        <div class="container">
+            <div class="row">
+                <div class="home-info padd-15">
+                    <h3 class="hello">Hello, my name is <span class="name">AvCvE </span></h3>
+                <h3 class="my-profession">I'm a <span class="typing">Software Developer</span></h3>
+                <p>I code 🌚
+                </p>
+                <a href="#contact" class="btn hire-me" style="color:white;">More About Me</a>
             </div>
-            <div class="main-content">
-                <section class="home section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="home-info padd-15">
-                                <h3 class="hello">Hello, my name is <span class="name">AvCvE </span></h3>
-                                <h3 class="my-profession">I'm a <span class="typing">Software Developer</span></h3>
-                                <p>I code 🌚</p>
-                                <a href="#Contact" class="btn hire-me" style="color:white;">More About Me</a>
-                            </div>
-                            <div class="home-img padd-15">
-                                <img src="images/what2.png" height="464px" width="463px" alt="Profile Image">
-                            </div>
-                        </div>
-                    </div>
-                </section>
+            <div class="home-img padd-15">
+                <img src="images/what2.png" height="464px" width="463px" alt="">
+            </div>
+         </div>
+        </div>
+    </section>
 
-                <section class="about section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="section-title padd-15">
-                                <h2 id="About" style="color:white;">About Me</h2>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <!-- Content omitted for brevity, all internal fixes applied similarly -->
+    <!-- Home section end -->
+    <!-- About section start -->
+    <section class="about section ">
+        <div class="container">
+            <div class="row">
+                <div class="section-title padd-15">
+                    <h2 id="About" style="color:white;">About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-content padd-15">
+                    <div class="row">
+                        <div class="about-text padd-15">
+                            <h3>
+                                I'm ACE and <span>Software Developer</span>
+                                
+                            </h3>
+                            A passionate and dedicated software engineer with expertise in cybersecurity, web development, networking, cryptography, and robotics. Enthusiastic about protecting digital assets, building innovative web solutions, and advancing network infrastructure, he also delves into the intricate world of cryptography and the fascinating realm of robotics. Driven by a relentless curiosity and a desire to stay at the forefront of technology, he continually hones his skills and embraces new challenges in these dynamic fields.
                         </div>
                     </div>
-                </section>
+                    <div class="row"><div class="personal-info padd-15">
+                        <div class="row">
+                            
+                            <div class="info-item padd-15">
+                                <p class="inlineblc">
+                                    Website : <a href="https://shadowszone.github.io/">https://shadowszone.github.io</a>
+                                </p>
+                            </div>
 
-                <section class="services section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="section-title padd-15">
-                                <h2 id="Services">Services</h2>
+                            <div class="info-item padd-15">
+                                <p>
+                                    Email : <span><a href="mailto:bravejames370@gmail.com">bravejames370@gmail.com</a></span>
+                                </p>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="service-item padd-15">
-                                <div class="service-item-inner">
-                                    <div class="icon">
-                                        <video src="images/coding.mp4" id="hover-coding" loop muted preload="none"></video>
-                                    </div>
-                                    <h4>Web Design</h4>
-                                    <p>Get your own space on the web for your business</p>
-                                </div>
-                            </div>
-                            <div class="service-item padd-15">
-                                <div class="service-item-inner">
-                                    <div class="icon">
-                                        <video src="images/ai-voice-generator.mp4" id="hover-voice" loop muted preload="none"></video>
-                                    </div>
-                                    <h4>Customer service bots</h4>
-                                    <p>Get an automated bot on your customer line for swift client support.</p>
-                                </div>
-                            </div>
-                            <!-- More services... all video IDs fixed -->
-                        </div>
-                    </div>
-                </section>
 
-                <section class="contact section boxem">
-                    <div class="container">
+                            <div class="info-item padd-15">
+                                <p>
+                                    Degree : <span>Computer Science</span>
+                                </p>
+                            </div>
+
+                            <div class="info-item padd-15">
+                                <p>
+                                    Phone : <span>+2348141126579</span>
+                                </p>
+                            </div>
+
+                            <div class="info-item padd-15">
+                                <p>
+                                    City : <span>Uyo</span>
+                                </p>
+                            </div>
+
+                          
+                        </div>
                         <div class="row">
-                            <div class="section-title padd-15">
-                                <h2 id="Contact">Contact Me</h2>
+                            <div class="buttons padd-15">
+                                <a href="Teachingbasedresume.jpg" class="btn" style="color: white;" download>
+                                    Download CV
+                                </a>
+                                <a href="https://wa.me/qr/CRSBMH2V6JSIA1" class="btn hire-me" style="color: white;">Hire Me</a>
                             </div>
                         </div>
-                        <h3 class="contact-title padd-15"> Do you have any questions ?</h3>
-                        <h4 class="contact-sub-title padd-15">Just hit me up im ready to answer any questions and make your projects an extension of your dope ideas</h4>
-                        <div class="row">
-                            <div class="contact-info-item padd-15">
-                                <div class="icon">
-                                    <video src="images/phone.mp4" id="hover-video-phone" loop muted preload="none"></video>
-                                    <h4>Call Me</h4>
-                                    <p>+2348141126579</p>
-                                </div>
-                            </div>
-                            <div class="contact-info-item padd-15">
-                                <div class="icon">
-                                    <video src="images/email-file.mp4" id="hover-video-email" loop muted preload="none"></video>
-                                    <h4>Send me an Email</h4>
-                                    <p><a href="mailto:bravejames@gmail.com" style="color: var(--optional);">bravejames@gmail.com</a></p>
-                                </div>
-                            </div>
-                            <div class="contact-info-item padd-15">
-                                <div class="icon">
-                                    <img src="images/twitter.png" alt="Twitter Icon">
-                                    <h4>X</h4>
-                                    <p><a href="https://x.com/Braves_shadow16" style="color: var(--optional);">@Braves_shadow16</a></p>
-                                </div>
-                            </div>
-                        </div>
-                        <h3 class="contact-title padd-15"> send me an Email</h3>
-                        <h4 class="contact-sub-title padd-15">im litterally on there waiting 🙃</h4>
-                        <form action="https://formspree.io/f/xanwqkwz" method="POST">
-                            <div class="row">
-                                <div class="contact-form padd-15">
-                                    <div class="row">
-                                        <div class="form-item col-6 padd-15">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Name" name="Name">
-                                            </div>
-                                        </div>
-                                        <div class="form-item col-6 padd-15">
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" placeholder="Email" name="Email">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="form-item col-12 padd-15">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Subject" name="Subject">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="form-item col-12 padd-15">
-                                            <div class="form-group">
-                                                <textarea name="Message" class="form-control" placeholder="Message"></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="form-item col-12 padd-15">
-                                            <button type="submit" class="btn"> Send Message </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
                     </div>
-                </section>
+                    <div class="skills padd-15">
+                        <div class="row">
+                            <div class="skill-item padd-15">
+                                <h5>CSS</h5>
+                                <div class="progress">
+                                    <div class="progress-in" style="width: 76%;"></div>
+                                    <div class="skill-percent">76%</div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item padd-15">
+                                <h5>Js</h5>
+                                <div class="progress">
+                                    <div class="progress-in" style="width: 86%;"></div>
+                                    <div class="skill-percent">86%</div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item padd-15">
+                                <h5>Linux</h5>
+                                <div class="progress">
+                                    <div class="progress-in" style="width: 72%;"></div>
+                                    <div class="skill-percent">72%</div>
+                                </div>
+                            </div>
+
+                            <div class="skill-item padd-15">
+                                <h5>Python</h5>
+                                <div class="progress">
+                                    <div class="progress-in" style="width: 84%;"></div>
+                                    <div class="skill-percent">84%</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="row">
+                    <div class="education padd-15">
+                        <h3 class="title">Education</h3>
+                        <div class="row">
+                            <div class="timeline-box padd-15">
+                                <div class="timeline shadow-dark">
+                                    <!-- timeline  items -->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"> </div>
+                                            <h3 class="timeline-date">
+                                                2018 - 2019
+                                            </h3>
+
+                                            <h4 class="timeline-title">
+                                                Programming Hub                                        
+  
+  
+                                            </h4>
+                                            <p class="timeline-text">                    
+  I learnt web development through a comprehensive course on Programming Hub. It provided me with a solid foundation in HTML, CSS, and JavaScript, and practical experience in building responsive websites.
+                                    </div>
+
+                                     <!-- timeline  items -->
+                                     <div class="timeline-item">
+                                        <div class="circle-dot"> </div>
+                                            <h3 class="timeline-date">
+                                                2020 - 2022
+                                            </h3>
+
+                                            <h4 class="timeline-title">
+                                                Udemy advanced computing                                        
+  
+  
+                                            </h4>
+                                            <p class="timeline-text">                    
+  I learned about advanced computation through an in-depth course on Udemy. It provided me with a solid foundation in complex algorithms and data structures, and practical experience in solving computational problems.
+                                    </div>
+
+                                     <!-- timeline  items -->
+                                     <div class="timeline-item">
+                                        <div class="circle-dot"> </div>
+                                            <h3 class="timeline-date">
+                                                2023 till date
+                                            </h3>
+
+                                            <h4 class="timeline-title">
+                                              Uniuyo computer science                                           
+  
+  
+                                            </h4>
+                                            <p class="timeline-text">                    
+  I am currently learning computer science at the University of Uyo. The program has provided me with a comprehensive understanding of various aspects of computing, including programming, data structures, algorithms, and systems design.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience padd-15">
+                        <h3 class="title">Experience</h3>
+                        <div class="row">
+                            <div class="timeline-box padd-15">
+                                <div class="timeline shadow-dark">
+                                    <!-- timeline  items -->
+                                    <div class="timeline-item">
+                                        <div class="circle-dot"> </div>
+                                            <h3 class="timeline-date">
+                                                2013 - 2015
+                                            </h3>
+
+                                            <h4 class="timeline-title">
+                                               Web Projects                                                                                                                        
+  
+  
+  
+  
+  
+  
+                                            </h4>
+                                            <p class="timeline-text"> 
+  I am currently learning computer science at the University of Uyo. The program has provided me with a comprehensive understanding of various aspects of computing, including programming, data structures, algorithms, and systems design.   </p>                                                                                                                                                                                                                                                                                                                             
+   </div>                                                                                
+    <!-- timeline  items -->                    
+  
+                                     <div class="timeline-item">
+                                        <div class="circle-dot"> </div>
+                                            <h3 class="timeline-date">
+                                                2024
+                                            </h3>
+
+                                            <h4 class="timeline-title">
+                                                Working at CodeRigi
+  
+                                            </h4>
+                                            <p class="timeline-text">                    
+  In addition to my academic pursuits, I gained valuable experience working at Coderigi, a tech company where I designed websites. At Coderigi, I was involved in all stages of web development, from initial client consultations to design, implementation, and testing. This role allowed me to enhance my skills in front-end development, user experience design, and project management.
+                                    </div>
+
+                                     <!-- timeline  items -->
+                                     <div class="timeline-item">
+                                        <div class="circle-dot"> </div>
+                                            <h3 class="timeline-date">
+                                                Presently
+                                            </h3>
+
+                                            <h4 class="timeline-title">
+                                                Building cyber sec tools
+                                            </h4>
+                                            <p class="timeline-text">                    
+  I've been diving into some cool stuff lately! I've been building ethical hacking tools, from cybersecurity testing, and delving into robotics research related to hacking. It's been an eye-opening journey exploring these tech realms!                      </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
             </div>
         </div>
+    </section>
+
+    <!-- About section end -->
+
+
+
+    <!-- services section start -->
+<section class="services section ">
+
+    <div class="container">
+        <div class="row">
+            <div class="section-title padd-15">
+                <h2 id="Services">
+                    Services
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <!-- service item start  -->
+
+
+
+
+            <div class="service-item padd-15">
+                <div class="service-item-inner">
+                    <div class="icon">
+
+                        <video src="/images/coding.mp4" class="fa" id="hover-video" loop muted preload="auto"></video>
+                        
+                    </div>
+                    <h4>Web Design</h4>
+                    <p>Get your own space on the web for your business</p>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- service item end  -->
+
+             <!-- service item start  -->
+
+
+
+
+             <div class="service-item padd-15">
+                <div class="service-item-inner">
+                    <div class="icon">
+
+                                      <video src="/images/ai-voice-generator.mp4" class="fa" id="hover-video2" loop muted preload="auto"></video>                                                                                                    
+  
+  
+  
+  
+  
+
+                        
+                    </div>
+                    <h4>Customer service bots</h4>
+                    <p>Get an automated bot on your customer line for swift client support.</p>
+                </div>
+            </div>
+            
+
+
+
+
+
+
+            <!-- service item end  -->
+
+
+             <!-- service item start  -->
+
+
+
+
+             <div class="service-item padd-15">
+                <div class="service-item-inner">
+                    <div class="icon">
+
+                                      <video src="/images/website-builder.mp4" class="fa" id="hover-video3" loop muted preload="auto"></video>
+
+                        
+                    </div>
+                    <h4>Personal profile</h4>
+                    <p>Introduce yourself in a unique way and control their perception</p>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- service item end  -->
+
+             <!-- service item start  -->
+
+
+
+
+             <div class="service-item padd-15">
+                <div class="service-item-inner">
+                    <div class="icon">
+
+                                   <video src="/images/user-security.mp4" class="fa" id="hover-video4" loop muted preload="auto"></video>
+
+                        
+                    </div>
+                    <h4>Web Security</h4>
+                    <p>Test the security of your web resources by hiring us for thorough evaluation.</p>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- service item end  -->
+             <!-- service item start  -->
+
+
+
+
+             <div class="service-item padd-15">
+                <div class="service-item-inner">
+                    <div class="icon">
+
+                        <video src="/images/instruct.mp4" class="fa" id="hover-video5" loop muted preload="auto"></video>
+                        
+                        
+
+                    </div>
+                    <h4>Tech Lessons</h4>
+                    <p>Add a new skill to your arsenal today by joining the Elite Class</p>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- service item end  -->
+
+
+             <!-- service item start  -->
+
+
+
+
+             <div class="service-item padd-15">
+                <div class="service-item-inner">
+                    <div class="icon">
+
+                    <video src="/images/suspect.mp4" class="fa" id="hover-video6" loop muted preload="auto"></video>
+                        
+                    </div>
+                    <h4>Osint</h4>
+                    <p>Find information about targets of interest to give you the edge of information</p>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- service item end  -->
+        </div>
     </div>
+
+
+
+</section>
+
+  <section class="services section ">
+
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="section-title padd-15">
+                                            <h2 id="Services">
+                                                My Cyber Security Tools
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <!-- service item start  -->
+
+
+
+
+                                        <div class="service-item padd-15">
+                                            <div class="service-item-inner">
+                                                <div class="icon">
+
+                                                    <video src="/images/hide.mp4" class="fa" id="hover-video" loop muted
+                                                        preload="auto"></video>
+
+                                                </div>
+                                                <h4><a href="app.exe" download>Hide Your Passwords In An Image</a></h4>
+                                                <p>Use images to store that very important password or crypto key
+                                                    phrases </p>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- services section end   --> 
+
+<!-- portfolio section start -->
+
+
+<!-- portfolio section end  -->
+<!-- CONTACT SECTION START -->
+
+<section class="contact section boxem">
+    <div class="container">
+        <div class="row">
+            <div class="section-title padd-15">
+                <h2 id="Contact">
+                    Contact Me
+                </h2>
+            </div>
+        </div>
+
+        <h3 class="contact-title padd-15"> Do you have any questions ?</h3>
+        <h4 class="contact-sub-title padd-15">Just hit me up im ready to answer any questions and make your projects an extension of your dope ideas</h4>
+
+        <div class="row">
+            <!-- contact info item start -->
+            <div class="contact-info-item padd-15">
+                <div class="icon">
+                    <video src="/images/phone.mp4" class="fa" id="hover-video6" loop muted preload="auto"></video>
+
+                    <h4>Call Me</h4>
+                    <p>+2348141126579</p>
+                </div>
+            </div>
+            <!-- contact info item end -->
+
+             <!-- contact info item start -->
+             <div class="contact-info-item padd-15">
+                <div class="icon">
+                    <video src="/images/way.mp4" class="fa" id="hover-video7" loop muted preload="auto"></video>
+
+                    <h4>Office</h4>
+                    <p>Itu Rd</p>
+                </div>
+            </div>
+            <!-- contact info item end -->
+
+             <!-- contact info item start -->
+             <div class="contact-info-item padd-15">
+                <div class="icon">
+                    <video src="/images/email-file.mp4" class="fa" id="hover-video8" loop muted preload="auto"></video>
+
+                    <h4>Send me an Email</h4>
+                    <p><a href="mailto:bravejames@gmail.com" style="color: var(--optional);">bravejames@gmail.com</a></p>
+                </div>
+            </div>
+            <!-- contact info item end -->
+
+             <!-- contact info item start -->
+             <div class="contact-info-item padd-15">
+                <div class="icon">
+                    <video src="/images/browser.mp4" class="fa" id="hover-video9" loop muted preload="auto"></video>
+
+                    <h4>Website</h4>
+                    <p><a href="#" style="color: var(--optional);">https://shadowszone.github.io/</a></p>
+                </div>
+            </div>
+
+
+          <div class="contact-info-item padd-15">
+                                <div class="icon">
+                                    <img src="/images/twitter.png" class="fa">                                                            
+  
+  
+  
+                
+                                    <h4>X</h4>
+                                    <p><a href="https://x.com/Braves_shadow16"
+                                        style="color: var(--optional);">@Braves_shadow16</a></p>
+                                                                    </div>
+                            </div>
+            <!-- contact info item end -->
+
+
+
+        </div>
+        <h3 class="contact-title padd-15"> send me an Email</h3>
+        <h4 class="contact-sub-title padd-15">im litterally on there waiting 🙃</h4>
+
+        <!-- contact  form -->
+
+        <form action="https://formspree.io/f/xanwqkwz"method="POST">
+            <div class="row">
+                <div class="contact-form padd-15">
+                    <div class="row">
+                        <div class="form-item col-6 padd-15">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name" name="Name" id="">
+                            </div>
+    
+    
+                    </div>
+    
+                    <div class="form-item col-6 padd-15">
+    
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email" name="Email" id="">
+                            </div>
+        
+        
+                        </div>
+                    </div>
+    
+                    <div class="row">
+    
+                        <div class="form-item col-12 padd-15">
+    
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Subject" name="Subject" id="">
+                            </div>
+        
+        
+                        </div>
+    
+    
+                    </div>
+    
+    
+                    
+    
+    
+                    <div class="row">
+    
+                        <div class="form-item col-12 padd-15">
+    
+                            <div class="form-group">
+                                <textarea name="Message" class="form-control" id="" placeholder="Message"></textarea>
+                            </div>
+        
+        
+                        </div>
+    
+    
+                    </div>
+    
+                    <div class="row">
+    
+                        <div class="form-item col-12 padd-15">
+    
+                           <button type="submit" class="btn"> Send Message </button>
+        
+                        </div>
+    
+    
+                    </div>
+    
+    
+                </div>
+            </div>
+        </form>
+
+    </div>
+</section>
+
+
+
+
+<!-- CONTACT SECTION END  -->
+
+
+</div>
+   
+
+
+
+
+
+
+
+
+    <!-- main content end -->
+</div>
+
+
+    <!-- main container end -->
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+<div class="tellstop">
+<div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="images/image01.jpg" class="background-image" width="100%">
+      <!-- Your content goes here -->
+      <div class="content">
+       
+      </div>
+    </div>
+    <div class="mySlides fade">
+      <img src="images/image001.jpg" class="background-image" width="100%">
+      <!-- Your content goes here -->
+      <div class="content">
+        
+      </div>
+    </div>
+    <div class="mySlides fade">
+      <img src="images/image03.jpeg" class="background-image" width="100%">
+      <!-- Your content goes here -->
+      <div class="content">
+        
+      </div>
+
+      
+    </div>
+
+    <div class="mySlides fade">
+        <img src="Images/image04.jpeg" width="100%" class="background-image">
+        <!-- Your content goes here -->
+        <div class="content">
+          
+        </div>
+  
+        
+      </div>
+      
+      
+    <div class="mySlides fade">
+        <img src="images/image05.jpeg" width="100%" class="background-image">
+        <!-- Your content goes here -->
+        <div class="content">
+          
+        </div>
+  
+        
+      </div>
+      
+      
+    <div class="mySlides fade">
+        <img src="images/image06.jpg" width="100%" class="background-image">
+        <!-- Your content goes here -->
+        <div class="content">
+          
+        </div>
+  
+        
+      </div>
+      
+      
+      
+    <div class="mySlides fade">
+        <img src="images/image07.jpg" width="100%" class="background-image">
+        <!-- Your content goes here -->
+        <div class="content">
+          
+        </div>
+  
+        
+      </div>
+      
+      
+      
+    <div class="mySlides fade">
+        <img src="images/Image08.jpg" width="100%" class="background-image">
+        <!-- Your content goes here -->
+        <div class="content">
+          
+        </div>
+  
+        
+      </div>
+      
+      <div class="mySlides fade">
+        <img src="Images/Image03.png" width="100%" class="background-image">
+        <!-- Your content goes here -->
+        <div class="content">
+          
+        </div>
+  
+        
+      </div>
+      
+      
+  </div>
+
+</div>
+    
+
+    <!-- styles switcher start-->
 
     <div class="style-switcher">
-        <div class="style-switcher-toggler s-icon"></div>
-        <div class="day-night s-icon">
-            <video src="images/eclipse.mp4" id="hover-video10" loop muted preload="none" onclick="mode()"></video>
-        </div>
-        <h4>Theme Colors</h4>
-        <div class="colors">
-            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
-        </div>
-    </div>
+        <div class="style-switcher-toggler s-icon">
+            <!-- icon goes here --> </div>
+            <div class="day-night s-icon">
+                <video src="/images/eclipse.mp4" class="i" id="hover-video10" loop muted preload="auto" onclick="mode()"></video> </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+                <h4>Theme Colors</h4>
+                <div class="colors">
+                    <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                </div>
+            
+
+            </div>
+
+           
+    </div>
+    <!-- styles switcher end-->
+
+    <!-- js files -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script src="js/script.js"></script>
+
     <script src="js/style-switcher.js"></script>
+
 </body>
 </html>
